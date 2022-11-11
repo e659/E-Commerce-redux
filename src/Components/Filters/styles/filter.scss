@@ -1,0 +1,146 @@
+.pro-sidebar-content ul{
+    list-style: none !important;
+    transform: translate(2px, -2px);
+}
+.ProSideBar{
+    z-index: 1000;
+}
+.ProSideBar .filterBtn{
+    background-color: darkmagenta !important;
+    color: white !important;
+    font-size: 18px !important;
+    // transform: translateX(-9px);
+}
+.ProSideBar0 .filterBtn:hover{
+    background-color: white !important;
+    color:darkmagenta !important ;
+    border:1px solid darkmagenta !important;
+}
+.catBtn{
+
+}
+// checkbox
+.categoryInput[type="checkbox"]:checked {
+    background: darkmagenta ;
+    color: white;
+    border-color:none !important;
+}
+
+
+.categoryInput[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: #A5A5A51A;
+    height: 17px;
+    width: 17px;
+    border: 1px solid darkmagenta ;
+    border-radius: 50%;
+    color: white;
+    transform: translate(1px, 3px);
+}
+.form-check-input:checked {
+
+    border-color:transparent !important;
+}
+.categoryInput[type="checkbox"]:after {
+    content: '';
+    position: relative;
+    left: 35%;
+    top: 12%;
+    width: 37%;
+    height: 55%;
+    background-color:darkmagenta  !important;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(40deg);
+    display: none;
+}
+
+.categoryInput[type="checkbox"]:checked:after {
+    display: block;
+}
+.form-check label{
+    color: gray !important;
+    font-weight: 400;
+}
+.react-slidedown {
+    padding-top: 10px !important;
+}
+.filter-form input{
+    border: 1px solid darkmagenta !important;
+}
+// mediaQuery
+@media  screen and (min-width:320px ) and (max-width:480px){
+    .ProSideBar .btn-toggle{
+        display: block !important;
+    }
+    .ProSideBar .pro-sidebar.sm {
+        position: absolute !important;
+        background-color: white;
+        height: 500px;
+        width: 264px;
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 15px !important;
+    }
+    .ProSideBar .pro-sidebar .pro-sidebar-inner{
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background-color: white;
+        height: auto !important;
+    }
+};
+@media  screen and (min-width:480px ) and (max-width:568px)
+{
+    .ProSideBar .btn-toggle{
+        display: block !important;
+    }
+    .ProSideBar .pro-sidebar.sm {
+        position: absolute !important;
+        background-color: white;
+        height: 500px;
+        width: 264px;
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 15px !important;
+    }
+    .ProSideBar .pro-sidebar .pro-sidebar-inner{
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background-color: white;
+        height: auto !important;
+    }
+};
+@media screen and (min-width:568px) and (max-width:768px){
+    .ProSideBar .btn-toggle{
+        display: block !important;
+    }
+    .ProSideBar .pro-sidebar.sm {
+        position: absolute !important;
+        background-color: white;
+        height: 500px;
+        width: 264px;
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 15px !important;
+    }
+    .ProSideBar .pro-sidebar .pro-sidebar-inner{
+        border-radius: 20px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background-color: white;
+        height: auto !important;
+    }
+};
+@media screen and (min-width:768px) and (max-width:992px){};
